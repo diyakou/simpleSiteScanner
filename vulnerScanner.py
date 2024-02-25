@@ -54,6 +54,7 @@ def scan_all(target):
     except (requests.exceptions.RequestException, socket.error) as e:
         print(f"Error scanning: {e}")
 
-# URL of the website you want to scan or IP address
-target = input("input target without https or http or www :")  # Replace with your target
+target = input('Target url without https or http :')  # Replace with your target
 scan_all(target)
+
+input("Press Enter to exit...")
