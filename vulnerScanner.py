@@ -56,5 +56,3 @@ def scan_all(target):
 
 target = input('Target url without https or http :')  # Replace with your target
 scan_all(target)
-
-input("Press Enter to exit...")
